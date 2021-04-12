@@ -34,7 +34,7 @@ function passwordCharacters() {
     console.log(string);
 
     //User prompt for uppercase chars
-    var uppercaseChoice = prompt("Would you like to use lowercase characters? Enter 'Y' or 'N'");
+    var uppercaseChoice = prompt("Would you like to use uppercase characters? Enter 'Y' or 'N'");
     uppercaseChoice = uppercaseChoice.toUpperCase()
 
     //Sets the user input to uppercase and either adds the chosen character set to the string or leaves it untouched
